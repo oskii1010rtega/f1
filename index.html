@@ -1,1 +1,247 @@
-<h1>hello WASA</h1>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fórmula 1</title>
+    <style>
+        body {
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: #ED1021;
+        }
+
+        header {
+            background-color: #333333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        #logo {
+            max-width: 200px;
+            height: auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+        }
+
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+         
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        hr {
+            border-color: red;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 800px;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        form {
+            text-align: center;
+        }
+
+        input[type="text"] {
+            width: 80%;
+            padding: 10px;
+            margin: 10px auto;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        iframe {
+            display: block;
+            margin: 0 auto;
+            border: none;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #333333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        p {
+        color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <header id="inicio"> <!-- Agregamos el ID "inicio" aquí -->
+        <img src="C:\Users\115973\OneDrive\Documentos\richie\pagina1\images\logof1.png" alt="Logo de Apuntes Bonitos" id="logo">
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#noticias">Noticias</a>
+            <a href="#calendario">Calendario</a>
+            <a href="#equipos-pilotos">Equipos y Pilotos</a>
+            <a href="#circuitos">Circuitos</a>
+            <a href="https://www.formula1.com/" target="_blank">Página oficial de la Fórmula 1</a>
+        </nav>
+        <hr>
+    </header>
+
+    <section id="noticias">
+        <h2>Noticias</h2>
+        <div class="noticia">
+            <img src="C:\Users\115973\OneDrive\Documentos\richie\pagina1\images\noticia1.png" alt="Red Bull RB20, un coche de una nueva dimensión">
+            <div class="descripcion">
+                <h3>Red Bull RB20, un coche de una nueva dimensión</h3>
+                <p>Luego de conseguir el año más dominante de su historia en la Fórmula 1, el equipo Red Bull, donde milita el mexicano Sergio ‘Checo’ Pérez y el tricampeón mundial Max Verstappen, dio a conocer su nuevo monoplaza RB20 para la temporada 2024, donde buscarán ampliar sus éxitos recientes en la máxima categoría del automovilismo.</p>
+                <p>En cuestiones de decoración y apariencia estética, el auto no presenta sorpresas, ya que continúa llevando el tradicional esquema de color azul marino con el logotipo de la bebida energética. Y aunque el equipo ha optado por un concepto más agresivo, tampoco esperan grandes cambios en lo que respecta al nivel de rendimiento de su monoplaza, pero sí mejorar en lo aerodinámico.</p>
+
+                <p>El neerlandés terminó la campaña con una ventaja de 290 puntos sobre ‘Checo’ Pérez, subcampeón del mundial. Si bien esta fue la primera vez en la historia de Red Bull que sus pilotos terminaron el campeonato en un orden uno-dos, el mexicano aspira a tener año más exitoso en 2024.
+
+En el campeonato de constructores, Red Bull acumuló la asombrosa cifra de 451 puntos más que su rival más cercano, Mercedes.<p>
+            </div>
+        </div>
+    </section>
+
+    <section id="calendario">
+        <h2>Calendario</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Fecha</th>
+                    <th>Carrera</th>
+                    <th>Circuito</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>20 de marzo</td>
+                    <td>Gran Premio de Australia</td>
+                    <td>Melbourne Grand Prix Circuit</td>
+                </tr>
+                <tr>
+                    <td>27 de marzo</td>
+                    <td>Gran Premio de Bahréin</td>
+                    <td>Bahrain International Circuit</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="equipos-pilotos">
+        <h2>Equipos y Pilotos</h2>
+        <div class="equipo">
+            <h3>Mercedes AMG Petronas</h3>
+            <div class="piloto">
+                <img src="C:\Users\115973\OneDrive\Documentos\richie\pagina1\images\lewis.jpg" alt="Piloto 1">
+                <center><p>Lewis Hamilton</p></center>
+            </div>
+            <div class="piloto">
+                <img src="C:\Users\115973\OneDrive\Documentos\richie\pagina1\images\russell.jpg" alt="Piloto 2">
+               <center><p>George Russell</p></center>
+            </div>
+        </div>
+
+        <div class="equipo">
+            <h3>Ferrari</h3>
+            <div class="piloto">
+                <img src="C:\Users\115973\OneDrive\Documentos\richie\pagina1\images\sainz.jpeg" alt="Piloto 1">
+                <center><p>Carlos Sainz</p></center>
+            </div>
+            <div class="piloto">
+                <img src="C:\Users\115973\OneDrive\Documentos\richie\pagina1\images\leclerc.jpg" alt="Piloto 2">
+                <center><p>Charles Leclerc</p></center>
+            </div>
+        </div>
+
+        <div class="equipo">
+            <h3>Red Bull</h3>
+            <div class="piloto">
+                <img src="C:\Users\115973\OneDrive\Documentos\richie\pagina1\images\verstappen.jpg" alt="Piloto 3">
+                <center><p>Max Verstappen</p></center>
+            </div>
+            <div class="piloto">
+                <img src="C:\Users\115973\OneDrive\Documentos\richie\pagina1\images\perez.jpg" alt="Piloto 4">
+                <center><p>Sergio Pérez</p></center>
+            </div>
+        </div>
+    </section>
+
+    <section id="circuitos">
+        <h2>Circuitos</h2>
+        <p>El calendario del Mundial de Fórmula 1 2024 está compuesto por 24 Grandes Premios. Aquí encontrarás la mejor información sobre cada uno de ellos: todos los circuitos del Mundial, su ubicación, longitud, número de curvas y por supuesto, los resultados actualizados de cada cita según se vayan produciendo.<p>
+        <p>Las principales novedades son, esta vez parece que sí, el regreso del Gran Premio de China, así como un buen número de cambios en el orden de las citas, fomentando un mayor regionalismo en el calendario, evitando un mayor número de viajes intercontinentales, si bien siguen existiendo algunas pruebas como Miami o Canadá que se saltan la nueva tendencia.<p>
+         <p>La temporada dará comienzo el 2 de marzo, en Bahréin, como está siendo habitual en las últimas temporadas. El cierre será en Abu Dhabi, también tradición el 8 de diciembre, olvidando las buenas intenciones de 2023 cuando se felicitaban por no haber alargado el calendario hasta diciembre, lo cual intentarían hacer a toda costa de ese momento. El parón veraniego dará comienzo tras el Gran Premio de Bélgica, en Spa-Francorchamps, el 28 de julio, regresando para la prueba de los Países Bajos, en Zandvoort, el 23 de agosto.<p>
+          <p>Como novedad, la Fórmula 1 añade dos nuevas carreras que tendrán lugar en sábado, al igual que la de Las Vegas. Se trata además de las dos primeras de la temporada, Bahréin y Arabia Saudí, y lo harán, según aclara la propia Fórmula 1, para acomodarse al Ramadán.<p>
+ <img src="C:\Users\115973\OneDrive\Documentos\richie\pagina1\images\circuito1.png"
+<br>
+ <img src="C:\Users\115973\OneDrive\Documentos\richie\pagina1\images\circuito_2.png"
+<br>
+ <img src="C:\Users\115973\OneDrive\Documentos\richie\pagina1\images\circuito3.png"
+<br>
+ <img src="C:\Users\115973\OneDrive\Documentos\richie\pagina1\images\circuito4.png"
+<br>
+ <img src="C:\Users\115973\OneDrive\Documentos\richie\pagina1\images\circuito5.png"
+<br>
+ <img src="C:\Users\115973\OneDrive\Documentos\richie\pagina1\images\circuito6.png"
+<br>
+ <img src="C:\Users\115973\OneDrive\Documentos\richie\pagina1\images\circuito7.png"
+<br>
+    </section>
+
+    <section id="video">
+        <h2>Video</h2>
+      <iframe width="560" height="315" src="https://youtu.be/YLFVD8xaD3U?si=jFJNNGLEJT2a43C0" frameborder="0" allowfullscreen></iframe>
+
+
+    </section>
+
+    <footer>
+     
+        @Copyright Ximenice todos los derechos reservados 2024.
+
+    </footer>
+
+   
+    <script>
+        document.querySelector('a[href="#inicio"]').addEventListener('click', function(e) {
+            e.preventDefault();
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+    </script>
+
+
+</body>
+</html>
